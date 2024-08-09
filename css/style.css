@@ -754,7 +754,7 @@ p.smallerFooterText {
 	}
 
 	.trust-area {
-		margin-top: -40px;
+		margin-top: -20px;
 	}
 	
 	.box, .box:after {
@@ -1009,6 +1009,10 @@ p.smallerFooterText {
 		line-height: 40px;
 		color: #e7e5e5;
 	}
+
+	.trust-area {
+		margin-top: -20px;
+	}
 }
 
 @media screen and (max-width: 440px) {
@@ -1017,7 +1021,7 @@ p.smallerFooterText {
 	}
 	
 	.button1 {
-		height: 38px;
+		height: 41px;
 		padding-left: 15px;
 		padding-right: 15px;
 		font-size: 13px;
@@ -1122,15 +1126,21 @@ p.smallerFooterText {
 		line-height: 40px;
 		color: #e7e5e5;
 	}
+
+	.trust-area {
+		margin-top: -20px;
+	}
 	
 }
 
 @media screen and (max-width: 360px) {
 	.button1 {
-		height: 23px;
-		padding-left: 11px;
-		padding-right: 11px;
-		font-size: 12px;
+		height: 41px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 13px;
+		top: -40px;
+		position: relative;
 	}
 	
 	.imgLogo img {
@@ -1162,5 +1172,9 @@ p.smallerFooterText {
 		word-spacing: 1px;
 		line-height: 40px;
 		color: #e7e5e5;
+	}
+
+	.trust-area {
+		margin-top: -20px;
 	}
 }
