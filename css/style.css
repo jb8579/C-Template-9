@@ -110,8 +110,9 @@ Sticky End
     padding: 1px 0px 0px 0px !important;
 }
 
-.home-section.home-sectio-sm {
-	padding: 1px 0px 0px 0px !important;
+.home-section {
+	padding: 60px 0px 0px 0px;
+	text-align: center;
 }
 
 .headline > h1{
@@ -753,7 +754,7 @@ p.smallerFooterText {
 	}
 
 	.trust-area {
-		margin-top: -14px;
+		margin-top: -40px;
 	}
 	
 	.box, .box:after {
