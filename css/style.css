@@ -742,8 +742,38 @@ p.smallerFooterText {
 
 @media screen and (max-width: 836px) {
 	.textmiddle {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translateX(-240px) translateY(18px);
+	}
+
+	.textleft {
+		margin: 0;
+		width: 300px;
+		height: 130px;
+	}
+
+	.textmiddle h5 {
 		display: none;
 	}
+
+	.textmiddle p {
+		text-align: center;
+		font-size: 11px;
+		max-width: 150px;
+		margin: auto;
+		letter-spacing: 0.4px;
+		font-weight: 400;
+		line-height: 16px;
+	}
+
+
+
+
+
+
+
 
 	.trust-content {
 		gap: 8px;
@@ -903,20 +933,12 @@ p.smallerFooterText {
 		font-size: 14px;
 	}
 	
-	p.starsDesktop, h4.ourScoreDesktop {
-		display: none;
-	}
-	
 	p.mobile {
 		max-width: 150px;
 	}
 	
 	.smallLabel {
 		font-size: 12px;
-	}
-	
-	span.textMoved p {
-		display: none !important;
 	}
 	
 	span.textMoved p.mobile {
@@ -933,6 +955,29 @@ p.smallerFooterText {
 		-ms-flex: 0 0 calc(80% - var(--grid-gutter));
 		flex: 0 0 calc(80% - var(--grid-gutter));
 		max-width: calc(80% - var(--grid-gutter));
+	}
+
+	h4.ourScore, h4.ourScoreDesktop, h4.ourScoreMobile {
+		color: white;
+		text-align: center;
+		line-height: 15px;
+		margin: 0;
+		font-weight: 400;
+		font-size: 10px;
+		display: inline-block;
+		margin: 0px 8px;
+	}
+
+	p.starsDesktop {
+		font-size: 12px;
+	}
+
+	.blockleft {
+		margin: 27px auto 5px auto;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translateX(-150px) translateY(-10px);
 	}
 }
 
@@ -1026,6 +1071,27 @@ p.smallerFooterText {
 		padding: 5px 8px 5px 8px;
 		max-width: 82px;
 	}
+
+	.textmiddle {
+		position: absolute;
+		left: 68%;
+		top: 50%;
+		transform: translateX(-30px) translateY(-50px);
+	}
+
+	
+
+	p.starsDesktop {
+		font-size: 12px;
+	}
+
+	.blockleft {
+		margin: 27px auto 5px auto;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translateX(-158px) translateY(-15px);
+	}
 }
 
 @media screen and (max-width: 440px) {
@@ -1038,7 +1104,7 @@ p.smallerFooterText {
 		padding-left: 15px;
 		padding-right: 15px;
 		font-size: 13px;
-		top: -40px;
+		top: 18px;
 		position: relative;
 	}
 
@@ -1111,14 +1177,7 @@ p.smallerFooterText {
 		position: relative;
 		top: -2px;
 	}
-	
-	p.mobile {
-		font-size: 12px;
-	}
-	
-	.blockleft {
-		margin: 27px auto 5px auto;
-	}
+
 	
 	h4.ourScore, h4.ourScoreMobile {
 		font-size: 10px;
@@ -1157,31 +1216,43 @@ p.smallerFooterText {
 		padding: 5px 8px 5px 8px;
 		max-width: 82px;
 	}
+
+	.textmiddle {
+		position: absolute;
+		left: 68%;
+		top: 50%;
+		transform: translateX(-30px) translateY(-50px);
+	}
 	
 }
 
 @media screen and (max-width: 360px) {
 	.button1 {
 		height: 41px;
-		padding-left: 15px;
-		padding-right: 15px;
-		font-size: 13px;
-		top: -40px;
+		padding-left: 14px;
+		padding-right: 14px;
+		font-size: 11px;
 		position: relative;
+		left: 50%;
+		top: 50%;
+		transform: translateX(-60px) translateY(35px);
 	}
 	
 	.imgLogo img {
-		top: 36px;
-		max-height: 35px !important;
+		top: 40px;
+		max-height: 42px !important;
 	}
 	
 	.col.rightcol {
 		padding-right: 25px !important;
 	}
-	
+
 	.blockleft {
-		margin: 35px auto 5px auto;
-		float: none !important;
+		margin: 27px auto 5px auto;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translateX(-140px) translateY(-10px);
 	}
 	
 	.blockright.pull-right {
@@ -1190,6 +1261,10 @@ p.smallerFooterText {
 
 	.page-content {
 		overflow-x: hidden;
+	}
+
+	p.starsDesktop {
+		font-size: 11px;
 	}
 
 	.list-content > h2 {
@@ -1216,5 +1291,12 @@ p.smallerFooterText {
 	.footer-license-images img {
 		padding: 5px 8px 5px 8px;
 		max-width: 82px;
+	}
+
+	.textmiddle {
+		position: absolute;
+		left: 68%;
+		top: 50%;
+		transform: translateX(-30px) translateY(-50px);
 	}
 }
